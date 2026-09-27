@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Gagana C P | Python Full Stack Developer &amp; MCA</title>
+  <meta name="description" content="Portfolio of Gagana C P - Python Full Stack Developer, MCA Student, and Security Enthusiast. Experienced in Django, REST APIs, IoT Embedded Systems, and Data Analysis.">
+  <meta name="keywords" content="Gagana C P, Python Full Stack Developer, Django, REST APIs, Arduino, IoT, Embedded Systems, MCA, Bengaluru, Web Developer">
+  <meta name="author" content="Gagana C P">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gagana C P | Python Full Stack Developer &amp; MCA">
+  <meta property="og:description" content="Explore my projects in Python/Django, IoT smart systems, and practical security engineering.">
+  <meta property="og:image" content="assets/profile.jpeg">
+  <meta property="og:url" content="https://gaganagana.github.io">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/profile.jpeg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-accent">&lt;</span>Gagana<span class="logo-dot">.</span>dev<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf" class="btn btn-outline-nav">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#skills" class="drawer-link">Skills</a>
+      <a href="#projects" class="drawer-link">Projects</a>
+      <a href="#education" class="drawer-link">Education</a>
+      <a href="#certifications" class="drawer-link">Certifications</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+      <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf" class="btn btn-primary drawer-btn">
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="badge status-badge">
+            <span class="status-pulse"></span>
+            Available for Software &amp; Full Stack Roles
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Gagana C P</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Python Full Stack Developer <span class="role-divider">|</span> MCA Student <span class="role-divider">|</span> Security Enthusiast
+          </h2>
+
+          <p class="hero-description">
+            I engineer end-to-end web applications with <strong>Python &amp; Django</strong>, build integrated <strong>IoT &amp; Embedded Systems</strong>, and apply data analysis for business intelligence. Dedicated to clean architecture, RESTful API design, and practical application security.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              Explore Projects
+            </a>
+            <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf" class="btn btn-secondary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+            <a href="https://github.com/gaganagana" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only" aria-label="GitHub Profile">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/gaganacp/" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only" aria-label="LinkedIn Profile">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+
+          <!-- Quick Stats Banner -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">End-to-End Systems</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">MCA</span>
+              <span class="stat-label">CIMS Bengaluru (2026)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Verified Codebase</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headshot Image Container -->
+        <div class="hero-image-wrapper">
+          <div class="image-backdrop-glow"></div>
+          <div class="image-frame">
+            <img src="assets/profile.jpeg" alt="Gagana C P - Python Full Stack Developer" class="hero-image" loading="eager" fetchpriority="high">
+          </div>
+          <div class="floating-tech-badge badge-python">
+            <span class="tech-dot dot-blue"></span> Python &amp; Django
+          </div>
+          <div class="floating-tech-badge badge-iot">
+            <span class="tech-dot dot-green"></span> IoT &amp; Hardware
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card narrative-card">
+            <h3>Technical Background &amp; Focus</h3>
+            <p>
+              I am an <strong>MCA student</strong> and aspiring <strong>Python Full Stack Developer</strong> based in Bengaluru with a passion for transforming real-world challenges into robust, user-centric software.
+            </p>
+            <p>
+              My hands-on experience bridges the gap between digital web applications and physical smart systems: from architecting secure <strong>Django MVT backends</strong> with application-level encryption, to interfacing <strong>microcontrollers, RFID sensors, and audio modules</strong> for real-world automated transit.
+            </p>
+            <p>
+              Having completed rigorous industry-oriented training in <strong>Python Full Stack &amp; Data Science</strong> at Genesis, I combine solid coding discipline, database design principles, and cybersecurity awareness to build systems that are performant, reliable, and secure.
+            </p>
+
+            <div class="key-strengths">
+              <div class="strength-item">
+                <span class="strength-icon">⚡</span>
+                <div>
+                  <strong>Full Development Lifecycle</strong>
+                  <span>From relational schema design (MySQL/SQLite) to responsive Bootstrap/JS interfaces.</span>
+                </div>
+              </div>
+              <div class="strength-item">
+                <span class="strength-icon">🔐</span>
+                <div>
+                  <strong>Security-Minded Engineering</strong>
+                  <span>Hands-on practice in symmetric cryptography, authentication guards, and SIEM log monitoring.</span>
+                </div>
+              </div>
+              <div class="strength-item">
+                <span class="strength-icon">🤖</span>
+                <div>
+                  <strong>Hardware &amp; IoT Synergy</strong>
+                  <span>Embedded C logic for Arduino &amp; ESP8266 integrated with mobile &amp; cloud platforms.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card info-card">
+            <h3>Quick Profile Info</h3>
+            <ul class="info-list">
+              <li>
+                <span class="info-label">Degree</span>
+                <span class="info-value">Master of Computer Applications (MCA)</span>
+              </li>
+              <li>
+                <span class="info-label">Institution</span>
+                <span class="info-value">Community Institute of Management Studies, Bengaluru</span>
+              </li>
+              <li>
+                <span class="info-label">Graduation</span>
+                <span class="info-value">2024 – 2026 (Final Year)</span>
+              </li>
+              <li>
+                <span class="info-label">Location</span>
+                <span class="info-value">Bommanahalli, Bengaluru - 560068</span>
+              </li>
+              <li>
+                <span class="info-label">Email</span>
+                <span class="info-value"><a href="mailto:gaganacp2002@gmail.com" class="accent-link">gaganacp2002@gmail.com</a></span>
+              </li>
+              <li>
+                <span class="info-label">Phone</span>
+                <span class="info-value">+91 9019941883</span>
+              </li>
+              <li>
+                <span class="info-label">Languages</span>
+                <span class="info-value">English, Kannada</span>
+              </li>
+              <li>
+                <span class="info-label">Core Focus</span>
+                <span class="info-value">Web Architecture, REST APIs, Cryptography, IoT</span>
+              </li>
+            </ul>
+
+            <div class="resume-cta-box">
+              <p>Looking for a complete chronological overview?</p>
+              <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf" class="btn btn-primary btn-block">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download Verified Resume (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Proficiencies Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-bar"></div>
+          <p class="section-subtext">Verified skills supported by resume coursework, project source code, and certifications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-code">💻</div>
+              <h3>Core &amp; Full Stack</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">Django (MVT)</span>
+              <span class="skill-chip">JavaScript (ES6+)</span>
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3</span>
+              <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">Fetch API</span>
+              <span class="skill-chip">Bootstrap 5</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-db">🗄️</div>
+              <h3>Databases &amp; ORM</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">MySQL</span>
+              <span class="skill-chip">SQLite</span>
+              <span class="skill-chip">Django ORM</span>
+              <span class="skill-chip">Relational Modeling</span>
+              <span class="skill-chip">Schema Optimization</span>
+              <span class="skill-chip">Parameterized Queries</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-iot">⚡</div>
+              <h3>IoT &amp; Embedded Systems</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">Embedded C</span>
+              <span class="skill-chip">Arduino UNO</span>
+              <span class="skill-chip">NodeMCU ESP8266</span>
+              <span class="skill-chip">MFRC522 RFID</span>
+              <span class="skill-chip">I2C 16x2 LCD</span>
+              <span class="skill-chip">DFPlayer Mini</span>
+              <span class="skill-chip">Servo Actuation</span>
+              <span class="skill-chip">L293D Motor Driver</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-sec">🔐</div>
+              <h3>Networking &amp; Security</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">TCP/IP</span>
+              <span class="skill-chip">HTTP / HTTPS</span>
+              <span class="skill-chip">Cryptography</span>
+              <span class="skill-chip">Fernet AES-128-CBC</span>
+              <span class="skill-chip">ELK Stack SIEM</span>
+              <span class="skill-chip">Kibana Dashboards</span>
+              <span class="skill-chip">Winlogbeat &amp; Filebeat</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-data">📊</div>
+              <h3>Data Science &amp; ML</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">Pandas</span>
+              <span class="skill-chip">NumPy</span>
+              <span class="skill-chip">Matplotlib</span>
+              <span class="skill-chip">Seaborn</span>
+              <span class="skill-chip">Plotly</span>
+              <span class="skill-chip">Scikit-learn</span>
+              <span class="skill-chip">Exploratory Data Analysis</span>
+              <span class="skill-chip">Churn Classification</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon icon-tools">🛠️</div>
+              <h3>Developer Tools</h3>
+            </div>
+            <div class="chip-container">
+              <span class="skill-chip">Git</span>
+              <span class="skill-chip">GitHub</span>
+              <span class="skill-chip">VS Code</span>
+              <span class="skill-chip">Arduino IDE</span>
+              <span class="skill-chip">Jupyter Notebook</span>
+              <span class="skill-chip">Postman</span>
+              <span class="skill-chip">Virtual Environments</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-bar"></div>
+          <p class="section-subtext">Practical, production-grounded systems built and tested across web, embedded, and analytics domains.</p>
+        </div>
+
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Full Stack</button>
+          <button class="filter-btn" data-filter="iot">IoT &amp; Hardware</button>
+          <button class="filter-btn" data-filter="data">Data Science &amp; Security</button>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: SecureNote -->
+          <div class="project-card" data-category="web">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-web">Full Stack Web</div>
+              <a href="https://github.com/gaganagana/secure-note-django" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">SecureNote — Encrypted Personal Notes</h3>
+              <p class="project-summary">
+                A full-stack Django web application engineered to solve plaintext database storage risks by applying application-level symmetric encryption before persisting notes to SQLite.
+              </p>
+
+              <ul class="project-highlights">
+                <li><strong>Fernet AES-128-CBC Encryption</strong>: Note content is encrypted into authenticated ciphertext tokens before database insert and decrypted dynamically for authorized owners.</li>
+                <li><strong>Authorization Guards</strong>: Strict ownership verification prevents horizontal privilege escalation.</li>
+                <li><strong>Decoupled REST API</strong>: Features Django REST Framework endpoints consumed asynchronously via JavaScript <code>fetch()</code>.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Django 5</span>
+                <span class="tech-tag">DRF</span>
+                <span class="tech-tag">Fernet AES</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/gaganagana/secure-note-django" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                View Source Code &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Smart Bus -->
+          <div class="project-card" data-category="iot">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-iot-type">IoT &amp; Hardware</div>
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Smart Bus: Cashless Fare &amp; Voice System</h3>
+              <p class="project-summary">
+                An automated embedded transit ticketing prototype integrating RFID passenger identification, automated gate controls, bilingual voice alerts, and transit route simulation.
+              </p>
+
+              <ul class="project-highlights">
+                <li><strong>Automated Tap-In / Tap-Out</strong>: MFRC522 RFID card validation calculates multi-stage distances and executes automated fare deductions.</li>
+                <li><strong>DFPlayer Voice Engine</strong>: Plays 20+ custom MP3 station announcements (Kempegowda, KR Circle), balance prompts, and error chimes.</li>
+                <li><strong>Servo Gate Mechanism</strong>: Actuates entry and exit gates synchronized with card tap status.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Arduino UNO</span>
+                <span class="tech-tag">Embedded C</span>
+                <span class="tech-tag">MFRC522 RFID</span>
+                <span class="tech-tag">DFPlayer Mini</span>
+                <span class="tech-tag">I2C LCD</span>
+                <span class="tech-tag">Servo</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                View Firmware &rarr;
+              </a>
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-setup.jpg', 'Smart Bus Hardware Prototype Assembly with Arduino, RFID, DFPlayer, LCD &amp; Gate Servos')">
+                View Hardware
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-circuit.png', 'Smart Bus Complete Wiring Schematic &amp; Circuit Diagram')">
+                View Circuit
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3: Supermart Grocery Sales Analysis -->
+          <div class="project-card" data-category="data">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-data-type">Data Science</div>
+              <a href="https://github.com/gaganagana/python-fullstack-data-science" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Supermart Grocery Sales &amp; Retail EDA</h3>
+              <p class="project-summary">
+                Comprehensive Exploratory Data Analysis (EDA) on retail supermarket transactions to deliver actionable business intelligence on profitability trends and product margins.
+              </p>
+
+              <ul class="project-highlights">
+                <li><strong>Profit Margin Analysis</strong>: Evaluated the financial impact of customer discount rates against net margins across diverse grocery categories.</li>
+                <li><strong>Temporal Sales Insights</strong>: Parsed datetime series to detect high-velocity seasonal demand and revenue peaks.</li>
+                <li><strong>Visual Storytelling</strong>: Built clear, styled distribution charts using Matplotlib and Seaborn for business stakeholder presentations.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">Jupyter</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/gaganagana/python-fullstack-data-science" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                View Notebook &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4: Centralized SIEM & ELK Threat Detection -->
+          <div class="project-card" data-category="data">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-sec-type">Cybersecurity &amp; SIEM</div>
+              <a href="https://github.com/gaganagana/cybersecurity-projects" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Centralized SIEM &amp; Threat Detection</h3>
+              <p class="project-summary">
+                A centralized log monitoring infrastructure deployed using the ELK Stack to collect, analyze, and visualize security events from Windows and Linux endpoints.
+              </p>
+
+              <ul class="project-highlights">
+                <li><strong>Log Pipeline Pipeline</strong>: Ingested system security telemetry using Winlogbeat and Filebeat, filtered via Logstash, and indexed in Elasticsearch.</li>
+                <li><strong>Threat Detection Rules</strong>: Implemented alerting rules for abnormal login failures, brute-force anomalies, and SSH events.</li>
+                <li><strong>Kibana Security Dashboards</strong>: Designed telemetry dashboards tracking top targeted usernames and alert severities.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Elasticsearch</span>
+                <span class="tech-tag">Logstash</span>
+                <span class="tech-tag">Kibana</span>
+                <span class="tech-tag">Winlogbeat</span>
+                <span class="tech-tag">Filebeat</span>
+                <span class="tech-tag">KQL</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/gaganagana/cybersecurity-projects" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                View Repository &rarr;
+              </a>
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/elk-dashboard.png', 'Kibana Centralized SIEM Monitoring Dashboard &amp; Alert Telemetry')">
+                View SIEM Dashboard
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section class="section edu-section" id="education">
+      <div class="container">
+        
+        <div class="dual-columns">
+          
+          <!-- Education Column -->
+          <div class="column-block">
+            <div class="section-header align-left">
+              <span class="section-tag">Academic</span>
+              <h2 class="section-title">Education</h2>
+              <div class="title-bar"></div>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-date">Dec 2024 – Sep 2026</span>
+                  <h3 class="timeline-title">Master of Computer Applications (MCA)</h3>
+                  <h4 class="timeline-subtitle">Community Institute of Management Studies (CIMS), Jayanagar, Bengaluru</h4>
+                  <p class="timeline-text">
+                    Core academic specialization in Cloud Computing, Agile Methodologies, Artificial Intelligence, and Cryptography. Applied theoretical principles to enhance transit automation systems with cryptographic data security.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Column -->
+          <div class="column-block" id="certifications">
+            <div class="section-header align-left">
+              <span class="section-tag">Credentials</span>
+              <h2 class="section-title">Certifications</h2>
+              <div class="title-bar"></div>
+            </div>
+
+            <div class="cert-grid">
+              
+              <div class="cert-card">
+                <div class="cert-icon">🎓</div>
+                <div class="cert-details">
+                  <h4>Python Full Stack Development</h4>
+                  <span class="cert-issuer">Genesis &bull; Intensive Hands-On Training</span>
+                  <p>Comprehensive training covering Python, Django, JavaScript, REST APIs, and Relational Databases.</p>
+                </div>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon">🛡️</div>
+                <div class="cert-details">
+                  <h4>Cybersecurity Analyst Job Simulation</h4>
+                  <span class="cert-issuer">Tata Insights (Forage)</span>
+                  <p>Practical enterprise simulation on threat identification, access monitoring, and vulnerability assessments.</p>
+                </div>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon">📜</div>
+                <div class="cert-details">
+                  <h4>Unlox Edge – Cyber Security (Course)</h4>
+                  <span class="cert-issuer">Unlox Edge</span>
+                  <span class="credential-id">Credential ID: <code>UNXCS-2026-9339</code></span>
+                </div>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon">💼</div>
+                <div class="cert-details">
+                  <h4>Unlox Edge – Cyber Security (Internship)</h4>
+                  <span class="cert-issuer">Unlox Edge &bull; Project-Based Learning</span>
+                  <span class="credential-id">Credential ID: <code>UNXCS-INT-9339</code></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact & Recruiter Outreach Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-header">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-lead">
+              I am actively seeking software engineering, full-stack, and Python development opportunities. Whether you have an open role, an interesting project, or want to discuss my work, I'd love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact-methods">
+            
+            <a href="mailto:gaganacp2002@gmail.com" class="contact-method-card">
+              <div class="contact-icon">📧</div>
+              <div class="contact-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-val">gaganacp2002@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="contact-method-card" onclick="copyContact('+919019941883', 'Phone number copied to clipboard!')">
+              <div class="contact-icon">📱</div>
+              <div class="contact-info">
+                <span class="contact-label">Phone</span>
+                <span class="contact-val">+91 9019941883</span>
+              </div>
+              <span class="copy-hint">Click to copy</span>
+            </div>
+
+            <a href="https://www.linkedin.com/in/gaganacp/" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+              <div class="contact-icon">💼</div>
+              <div class="contact-info">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-val">linkedin.com/in/gaganacp</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/gaganagana" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+              <div class="contact-icon">🐙</div>
+              <div class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-val">github.com/gaganagana</span>
+              </div>
+            </a>
+
+            <div class="contact-method-card location-card">
+              <div class="contact-icon">📍</div>
+              <div class="contact-info">
+                <span class="contact-label">Location</span>
+                <span class="contact-val">Bommanahalli, Bengaluru - 560068</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-resume-banner">
+            <div class="resume-text">
+              <h3>Need an official copy of my resume?</h3>
+              <p>Download my comprehensive, verified resume in PDF format for recruitment review.</p>
+            </div>
+            <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf" class="btn btn-primary btn-lg">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume (PDF)
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal for Media Inspection -->
+  <dialog id="lightbox-modal" class="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image preview">&times;</button>
+      <img id="lightbox-img" src="" alt="Project Image Preview" class="lightbox-image">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="footer-logo">
+          &lt;Gagana.dev/&gt;
+        </a>
+        <p class="footer-tagline">Building clean, secure, and practical software solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/gaganagana" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/gaganacp/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:gaganacp2002@gmail.com">Email</a>
+        <a href="assets/Gagana_CP_Resume.pdf" download="Gagana_CP_Resume.pdf">Resume</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Gagana C P. Grounded in verified project implementations and academic coursework.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
