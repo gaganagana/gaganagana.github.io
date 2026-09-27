@@ -415,24 +415,69 @@
           </div>
 
           <!-- Project 2: Smart Bus -->
+          <!-- Project 2A: Smart Bus (MCA Major Project) -->
           <div class="project-card" data-category="iot">
             <div class="project-card-header">
-              <div class="project-type-badge badge-iot-type">IoT &amp; Hardware</div>
-              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+              <div class="project-type-badge badge-iot-type">MCA Major Project &bull; IoT &amp; Flutter</div>
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT/tree/main/Main-Project/Smart-Bus-IoT-Fare-Collection" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
               </a>
             </div>
 
             <div class="project-card-body">
-              <h3 class="project-title">Smart Bus: Cashless Fare &amp; Voice System</h3>
+              <h3 class="project-title">Smart Bus &ndash; IoT Transit &amp; Flutter Mobile System</h3>
               <p class="project-summary">
-                An automated embedded transit ticketing prototype integrating RFID passenger identification, automated gate controls, bilingual voice alerts, and transit route simulation.
+                A connected smart transit management platform bridging physical bus turnstiles to a cross-platform Flutter application and Google Firebase cloud backend.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Automated Tap-In / Tap-Out</strong>: MFRC522 RFID card validation calculates multi-stage distances and executes automated fare deductions.</li>
-                <li><strong>DFPlayer Voice Engine</strong>: Plays 20+ custom MP3 station announcements (Kempegowda, KR Circle), balance prompts, and error chimes.</li>
-                <li><strong>Servo Gate Mechanism</strong>: Actuates entry and exit gates synchronized with card tap status.</li>
+                <li><strong>Dual-Controller IoT Bridge</strong>: Arduino UNO executes time-critical RFID polling and turnstile gating; NodeMCU ESP8266 relays live telemetry via Wi-Fi to mobile and cloud.</li>
+                <li><strong>Reactive Flutter Mobile App</strong>: Built with Provider state management, embedded Shelf HTTP server (port 8080), live GPS simulation across 18 Bengaluru stops, and lost card lock/unlock.</li>
+                <li><strong>Bilingual UI &amp; Audio</strong>: Full English and regional Kannada (&#3221;&#3240;&#3277;&#3240;&#3233;) UI localization, DFPlayer hardware voice annunciation, and Razorpay test wallet recharge.</li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Flutter 3.x</span>
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Firebase Firestore</span>
+                <span class="tech-tag">NodeMCU ESP8266</span>
+                <span class="tech-tag">Arduino UNO</span>
+                <span class="tech-tag">Razorpay</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT/tree/main/Main-Project/Smart-Bus-IoT-Fare-Collection" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                View Project &rarr;
+              </a>
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-mobile-dashboard.jpg', 'Smart Bus Flutter Mobile App - Passenger Digital Wallet Dashboard')">
+                View App UI
+              </button>
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-hardware-rig.jpg', 'Smart Bus Physical Prototype Rig - Arduino, ESP8266, RFID &amp; Turnstile Servos')">
+                View Hardware
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 2B: Automatic Fare Collection System with Voice Alert (MCA Minor Project) -->
+          <div class="project-card" data-category="iot">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-iot-type">MCA Minor Project &bull; Hardware Prototype</div>
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT/tree/main/Minor-Project/Automatic-Fare-Collection-System-with-Voice-Alert" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Automatic Fare Collection System with Voice Alert</h3>
+              <p class="project-summary">
+                A standalone physical embedded ticketing prototype integrating 13.56 MHz RFID card tapping, dynamic stage-based fare deduction, voice prompts, and automated servo gates.
+              </p>
+
+              <ul class="project-highlights">
+                <li><strong>Contactless Smart Card Tapping</strong>: MFRC522 RFID reader scans 4-byte UIDs with automatic entry recording and exit fare deduction ($Fare = N \times ₹10$, minimum $₹10$).</li>
+                <li><strong>DFPlayer Voice Annunciation</strong>: Multi-track MP3 audio alerts for entry welcome, exit fare confirmation, low balance, and invalid card warnings.</li>
+                <li><strong>Turnstile Gate Controls</strong>: Synchronized SG90 micro-servos actuate physical entry and exit barriers with 16x2 I2C LCD real-time feedback.</li>
               </ul>
 
               <div class="project-tech-tags">
@@ -440,19 +485,19 @@
                 <span class="tech-tag">Embedded C</span>
                 <span class="tech-tag">MFRC522 RFID</span>
                 <span class="tech-tag">DFPlayer Mini</span>
-                <span class="tech-tag">I2C LCD</span>
-                <span class="tech-tag">Servo</span>
+                <span class="tech-tag">16x2 I2C LCD</span>
+                <span class="tech-tag">SG90 Servos</span>
               </div>
             </div>
 
             <div class="project-card-footer">
-              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <a href="https://github.com/gaganagana/Automatic-Fare-Collection-System-IoT/tree/main/Minor-Project/Automatic-Fare-Collection-System-with-Voice-Alert" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
                 View Firmware &rarr;
               </a>
-              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-setup.jpg', 'Smart Bus Hardware Prototype Assembly with Arduino, RFID, DFPlayer, LCD &amp; Gate Servos')">
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-setup.jpg', 'Automatic Fare Collection Hardware Prototype Assembly')">
                 View Hardware
               </button>
-              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-circuit.png', 'Smart Bus Complete Wiring Schematic &amp; Circuit Diagram')">
+              <button class="btn btn-secondary btn-sm" onclick="openLightbox('assets/images/smart-bus-circuit.png', 'Automatic Fare Collection Circuit Schematic')">
                 View Circuit
               </button>
             </div>
