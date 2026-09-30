@@ -87,11 +87,11 @@
           </h1>
 
           <h2 class="hero-subtitle">
-            Python Full Stack Developer <span class="role-divider">|</span> MCA Student <span class="role-divider">|</span> Security Enthusiast
+            MCA Student <span class="role-divider">|</span> Python &amp; Django Developer <span class="role-divider">|</span> IoT &amp; Security Enthusiast
           </h2>
 
           <p class="hero-description">
-            I engineer end-to-end web applications with <strong>Python &amp; Django</strong>, build integrated <strong>IoT &amp; Embedded Systems</strong>, and apply data analysis for business intelligence. Dedicated to clean architecture, RESTful API design, and practical application security.
+            I am an MCA student from Bengaluru building projects with <strong>Python &amp; Django</strong>, hands-on <strong>IoT hardware</strong>, and <strong>data analysis</strong>. I enjoy understanding how software works from the ground up &mdash; from encrypting database notes to connecting transit microcontrollers with mobile apps.
           </p>
 
           <div class="hero-actions">
@@ -114,8 +114,8 @@
           <!-- Quick Stats Banner -->
           <div class="stats-grid">
             <div class="stat-card">
-              <span class="stat-num">3+</span>
-              <span class="stat-label">End-to-End Systems</span>
+              <span class="stat-num">5</span>
+              <span class="stat-label">Hands-On Projects</span>
             </div>
             <div class="stat-card">
               <span class="stat-num">4</span>
@@ -127,7 +127,7 @@
             </div>
             <div class="stat-card">
               <span class="stat-num">100%</span>
-              <span class="stat-label">Verified Codebase</span>
+              <span class="stat-label">Hands-On Lab Work</span>
             </div>
           </div>
         </div>
@@ -160,37 +160,37 @@
 
         <div class="about-grid">
           <div class="about-card narrative-card">
-            <h3>Technical Background &amp; Focus</h3>
+            <h3>About Me &amp; What I Do</h3>
             <p>
-              I am an <strong>MCA student</strong> and aspiring <strong>Python Full Stack Developer</strong> based in Bengaluru with a passion for transforming real-world challenges into robust, user-centric software.
+              I am an <strong>MCA student</strong> at Community Institute of Management Studies (CIMS), Bengaluru (graduating in 2026), with a focus on <strong>Python Full Stack development</strong>, <strong>embedded IoT systems</strong>, and practical application security.
             </p>
             <p>
-              My hands-on experience bridges the gap between digital web applications and physical smart systems: from architecting secure <strong>Django MVT backends</strong> with application-level encryption, to interfacing <strong>microcontrollers, RFID sensors, and audio modules</strong> for real-world automated transit.
+              During my academic coursework and hands-on training at Genesis, I have focused on writing clean, readable code and understanding core engineering principles. Instead of just studying theory, I like building real projects where I can see things work &mdash; whether that is encrypting user notes with Python's Fernet library before saving to SQLite, programming Arduino UNO and ESP8266 microcontrollers with RFID and servo gates, or building a Flutter app for transit ticketing.
             </p>
             <p>
-              Having completed rigorous industry-oriented training in <strong>Python Full Stack &amp; Data Science</strong> at Genesis, I combine solid coding discipline, database design principles, and cybersecurity awareness to build systems that are performant, reliable, and secure.
+              I also have a strong interest in cybersecurity and log analysis, which led me to set up an ELK Stack lab to monitor system authentication events. I am currently looking for an entry-level software developer or Python engineer role where I can contribute to meaningful projects and continue learning from experienced teams.
             </p>
 
             <div class="key-strengths">
               <div class="strength-item">
                 <span class="strength-icon">⚡</span>
                 <div>
-                  <strong>Full Development Lifecycle</strong>
-                  <span>From relational schema design (MySQL/SQLite) to responsive Bootstrap/JS interfaces.</span>
+                  <strong>Full Stack Web Basics</strong>
+                  <span>Designing database models (MySQL/SQLite), clean Django backends, and responsive HTML/CSS/JS interfaces.</span>
                 </div>
               </div>
               <div class="strength-item">
                 <span class="strength-icon">🔐</span>
                 <div>
-                  <strong>Security-Minded Engineering</strong>
-                  <span>Hands-on practice in symmetric cryptography, authentication guards, and SIEM log monitoring.</span>
+                  <strong>Security Awareness</strong>
+                  <span>Hands-on practice with symmetric encryption (Fernet AES), user authentication checks, and ELK log monitoring.</span>
                 </div>
               </div>
               <div class="strength-item">
                 <span class="strength-icon">🤖</span>
                 <div>
-                  <strong>Hardware &amp; IoT Synergy</strong>
-                  <span>Embedded C logic for Arduino &amp; ESP8266 integrated with mobile &amp; cloud platforms.</span>
+                  <strong>Hardware &amp; IoT Prototyping</strong>
+                  <span>Writing C/C++ for Arduino UNO and NodeMCU ESP8266 to interface RFID sensors, LCD displays, and servo gates.</span>
                 </div>
               </div>
             </div>
@@ -364,7 +364,7 @@
           <span class="section-tag">Showcase</span>
           <h2 class="section-title">Featured Projects</h2>
           <div class="title-bar"></div>
-          <p class="section-subtext">Practical, production-grounded systems built and tested across web, embedded, and analytics domains.</p>
+          <p class="section-subtext">Hands-on academic and coursework projects I built to apply web development, IoT hardware, and data analysis concepts.</p>
         </div>
 
         <div class="project-filters">
@@ -386,15 +386,15 @@
             </div>
 
             <div class="project-card-body">
-              <h3 class="project-title">SecureNote — Encrypted Personal Notes</h3>
+              <h3 class="project-title">SecureNote &mdash; Encrypted Personal Notes</h3>
               <p class="project-summary">
-                A full-stack Django web application engineered to solve plaintext database storage risks by applying application-level symmetric encryption before persisting notes to SQLite.
+                A Django web application I built to learn application security. It encrypts note content using Python's Fernet library before saving to SQLite, so private notes are never stored as plaintext in the database.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Fernet AES-128-CBC Encryption</strong>: Note content is encrypted into authenticated ciphertext tokens before database insert and decrypted dynamically for authorized owners.</li>
-                <li><strong>Authorization Guards</strong>: Strict ownership verification prevents horizontal privilege escalation.</li>
-                <li><strong>Decoupled REST API</strong>: Features Django REST Framework endpoints consumed asynchronously via JavaScript <code>fetch()</code>.</li>
+                <li><strong>Fernet AES-128 Encryption</strong>: Note text is encrypted into ciphertext tokens before saving, and decrypted dynamically only when the authorized owner views it.</li>
+                <li><strong>User Ownership Verification</strong>: Implemented strict user checks so users can only view, edit, or delete their own notes.</li>
+                <li><strong>Automated Unit Tests</strong>: Wrote 12 unit tests verifying login protection, encryption/decryption cycles, and unauthorized access rejections.</li>
               </ul>
 
               <div class="project-tech-tags">
@@ -427,13 +427,13 @@
             <div class="project-card-body">
               <h3 class="project-title">Smart Bus &ndash; IoT Transit &amp; Flutter Mobile System</h3>
               <p class="project-summary">
-                A connected smart transit management platform bridging physical bus turnstiles to a cross-platform Flutter application and Google Firebase cloud backend.
+                My MCA final year project connecting bus ticketing hardware to a cross-platform Flutter mobile app. Passengers can check balances, lock lost RFID cards, top up in test mode, and track stops along a simulated 18-stop Bengaluru bus route.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Dual-Controller IoT Bridge</strong>: Arduino UNO executes time-critical RFID polling and turnstile gating; NodeMCU ESP8266 relays live telemetry via Wi-Fi to mobile and cloud.</li>
-                <li><strong>Reactive Flutter Mobile App</strong>: Built with Provider state management, embedded Shelf HTTP server (port 8080), live GPS simulation across 18 Bengaluru stops, and lost card lock/unlock.</li>
-                <li><strong>Bilingual UI &amp; Audio</strong>: Full English and regional Kannada (&#3221;&#3240;&#3277;&#3240;&#3233;) UI localization, DFPlayer hardware voice annunciation, and Razorpay test wallet recharge.</li>
+                <li><strong>Hardware &amp; Wi-Fi Setup</strong>: Arduino UNO handles rapid RFID card scanning and turnstile servo opening, while NodeMCU ESP8266 relays ticketing telemetry over Wi-Fi.</li>
+                <li><strong>Flutter Mobile App</strong>: Built with Provider state management, embedded Shelf HTTP server (port 8080), simulated GPS route tracking across 18 stops, and lost-card locking.</li>
+                <li><strong>Bilingual UI &amp; Voice Prompts</strong>: Supports English and Kannada (&#3221;&#3240;&#3277;&#3240;&#3233;) UI localization, DFPlayer Mini hardware voice annunciation, and Razorpay test mode wallet top-ups.</li>
               </ul>
 
               <div class="project-tech-tags">
@@ -442,7 +442,7 @@
                 <span class="tech-tag">Firebase Firestore</span>
                 <span class="tech-tag">NodeMCU ESP8266</span>
                 <span class="tech-tag">Arduino UNO</span>
-                <span class="tech-tag">Razorpay</span>
+                <span class="tech-tag">Razorpay (Test)</span>
               </div>
             </div>
 
@@ -471,13 +471,13 @@
             <div class="project-card-body">
               <h3 class="project-title">Automatic Fare Collection System with Voice Alert</h3>
               <p class="project-summary">
-                A standalone physical embedded ticketing prototype integrating 13.56 MHz RFID card tapping, dynamic stage-based fare deduction, voice prompts, and automated servo gates.
+                My MCA minor project &mdash; an earlier standalone hardware prototype using Arduino UNO, RFID card reader, 16x2 LCD, and servo turnstiles to calculate fares at ₹10 per stage and announce voice alerts.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Contactless Smart Card Tapping</strong>: MFRC522 RFID reader scans 4-byte UIDs with automatic entry recording and exit fare deduction ($Fare = N \times ₹10$, minimum $₹10$).</li>
-                <li><strong>DFPlayer Voice Annunciation</strong>: Multi-track MP3 audio alerts for entry welcome, exit fare confirmation, low balance, and invalid card warnings.</li>
-                <li><strong>Turnstile Gate Controls</strong>: Synchronized SG90 micro-servos actuate physical entry and exit barriers with 16x2 I2C LCD real-time feedback.</li>
+                <li><strong>Contactless Smart Card Tapping</strong>: MFRC522 RFID reader scans 4-byte card UIDs to record boarding stage and deduct distance fare upon tapping out (₹10 per stage, minimum ₹10).</li>
+                <li><strong>Voice Alerts with DFPlayer Mini</strong>: Audio prompts for passenger welcome, exit fare deduction, low balance warning, and invalid card rejection.</li>
+                <li><strong>Servo Barrier Controls</strong>: SG90 micro-servos simulate physical entry and exit turnstile gates with real-time balance display on a 16x2 I2C LCD.</li>
               </ul>
 
               <div class="project-tech-tags">
@@ -513,15 +513,15 @@
             </div>
 
             <div class="project-card-body">
-              <h3 class="project-title">Supermart Grocery Sales &amp; Retail EDA</h3>
+              <h3 class="project-title">Supermart Grocery Sales &ndash; Exploratory Data Analysis</h3>
               <p class="project-summary">
-                Comprehensive Exploratory Data Analysis (EDA) on retail supermarket transactions to deliver actionable business intelligence on profitability trends and product margins.
+                Exploratory data analysis on supermarket retail transactions using Python, Pandas, Matplotlib, and Seaborn to understand profitability trends and discount effects across product categories.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Profit Margin Analysis</strong>: Evaluated the financial impact of customer discount rates against net margins across diverse grocery categories.</li>
-                <li><strong>Temporal Sales Insights</strong>: Parsed datetime series to detect high-velocity seasonal demand and revenue peaks.</li>
-                <li><strong>Visual Storytelling</strong>: Built clear, styled distribution charts using Matplotlib and Seaborn for business stakeholder presentations.</li>
+                <li><strong>Profit &amp; Discount Analysis</strong>: Analyzed customer discount percentages against profit margins to understand how discounts affected net returns.</li>
+                <li><strong>Sales Over Time</strong>: Cleaned order dates and grouped sales by month and season to identify shopping trends.</li>
+                <li><strong>Data Visualization</strong>: Created bar charts, box plots, and heatmaps using Seaborn and Matplotlib to present insights clearly.</li>
               </ul>
 
               <div class="project-tech-tags">
@@ -541,25 +541,25 @@
             </div>
           </div>
 
-          <!-- Project 4: Centralized SIEM & ELK Threat Detection -->
+          <!-- Project 4: Cybersecurity Log Monitoring (ELK Stack Lab) -->
           <div class="project-card" data-category="data">
             <div class="project-card-header">
-              <div class="project-type-badge badge-sec-type">Cybersecurity &amp; SIEM</div>
+              <div class="project-type-badge badge-sec-type">Cybersecurity &amp; Lab</div>
               <a href="https://github.com/gaganagana/cybersecurity-projects" target="_blank" rel="noopener noreferrer" class="project-github-link" aria-label="GitHub Repository">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
               </a>
             </div>
 
             <div class="project-card-body">
-              <h3 class="project-title">Centralized SIEM &amp; Threat Detection</h3>
+              <h3 class="project-title">Cybersecurity Log Monitoring &ndash; ELK Stack Lab</h3>
               <p class="project-summary">
-                A centralized log monitoring infrastructure deployed using the ELK Stack to collect, analyze, and visualize security events from Windows and Linux endpoints.
+                A hands-on cybersecurity lab where I configured the ELK Stack and Beats to collect, parse, and monitor Windows and Linux system logs for failed logins and security events.
               </p>
 
               <ul class="project-highlights">
-                <li><strong>Log Pipeline Pipeline</strong>: Ingested system security telemetry using Winlogbeat and Filebeat, filtered via Logstash, and indexed in Elasticsearch.</li>
-                <li><strong>Threat Detection Rules</strong>: Implemented alerting rules for abnormal login failures, brute-force anomalies, and SSH events.</li>
-                <li><strong>Kibana Security Dashboards</strong>: Designed telemetry dashboards tracking top targeted usernames and alert severities.</li>
+                <li><strong>Log Ingestion with Beats</strong>: Configured Winlogbeat to capture Windows Security events (such as Event ID 4625 failed logins) and Filebeat for Linux authentication logs.</li>
+                <li><strong>Logstash Pipelines</strong>: Built Logstash filter pipelines to structure raw log entries before storing them in Elasticsearch.</li>
+                <li><strong>Kibana Monitoring Dashboards</strong>: Set up visual dashboards to spot repeated authentication failures, brute-force patterns, and user activity trends.</li>
               </ul>
 
               <div class="project-tech-tags">
